@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export",
+    "export": "next build && next export && gulp styles",
     "prod": "gulp styles",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
