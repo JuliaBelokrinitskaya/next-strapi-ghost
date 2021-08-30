@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "targets": {
+          "esmodules": true
+        },
+        "styled-jsx": {
+          "plugins": ["@styled-jsx/plugin-sass"]
+        }
+      }
+    ]
+  ],
+  "plugins": []
+}
