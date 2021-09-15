@@ -10,7 +10,8 @@
     "prod": "gulp styles",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build-test": "htmlhint out/**/*.html"
   },
   "dependencies": {
     "next": "^11.0.1",
@@ -38,6 +39,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "gulp": "^4.0.2",
     "gulp-change": "^1.0.2",
+    "htmlhint": "^0.15.1",
     "mini-css-extract-plugin": "^2.2.0",
     "postcss": "^8.3.6",
     "prettier": "^2.3.1",
